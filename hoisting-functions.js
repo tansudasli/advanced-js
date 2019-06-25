@@ -13,5 +13,5 @@ function a() {
 a() //says bye !
 
 // in global execution, there are execution and creation phases, separately,
-// in an execution context. In a function, a different execution context created
+// in global execution context, for a function, a different execution context created
 // and contains again execution & creation phases again

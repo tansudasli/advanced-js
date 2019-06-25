@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a54a1b4-b5df-42de-a6d3-8d9c5e068547" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hoisting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/max-of-an-array.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoisting-complex-scenarios.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoisting-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/hoisting-functions.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +55,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hoisting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hoisting-functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hoisting-complex-scenarios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -89,6 +109,8 @@
         <option value="$PROJECT_DIR$/max-of-an-array.js" />
         <option value="$PROJECT_DIR$/hoisteing.js" />
         <option value="$PROJECT_DIR$/hoisting.js" />
+        <option value="$PROJECT_DIR$/hoisting-functions.js" />
+        <option value="$PROJECT_DIR$/hoisting-complex-scenarios.js" />
       </list>
     </option>
   </component>
@@ -148,8 +170,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.hoisting.js">
-    <configuration name="HOF-on-JSON.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/HOF-on-JSON.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.hoisting-complex-scenarios.js">
+    <configuration name="hoisting-complex-scenarios.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="hoisting-complex-scenarios.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="hoisting-functions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="hoisting-functions.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="hoisting.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="hoisting.js" working-dir="$PROJECT_DIR$">
@@ -159,9 +184,6 @@
       <method v="2" />
     </configuration>
     <configuration name="scope.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="scope.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="test-stack.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test-stack.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp">
@@ -175,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.hoisting-complex-scenarios.js" />
+        <item itemvalue="Node.js.hoisting-functions.js" />
         <item itemvalue="Node.js.hoisting.js" />
         <item itemvalue="Node.js.max-of-an-array.js" />
         <item itemvalue="Node.js.scope.js" />
-        <item itemvalue="Node.js.HOF-on-JSON.js" />
-        <item itemvalue="Node.js.test-stack.js" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561451542521</updated>
-      <workItem from="1561451546693" duration="2101000" />
+      <workItem from="1561451546693" duration="2354000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1561452201594</created>
@@ -227,11 +249,32 @@
       <option name="project" value="LOCAL" />
       <updated>1561453386303</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initialize">
+      <created>1561453682866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561453682866</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initialize">
+      <created>1561453691072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561453691072</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initialize">
+      <created>1561453759438</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561453759438</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2101000" />
+    <option name="totallyTimeSpent" value="2354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1410" height="877" extended-state="0" />
@@ -241,17 +284,17 @@
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3299363" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,9 +316,9 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initialize" />
     <MESSAGE value="renamed file" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed file" />
+    <MESSAGE value="Initialize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -325,8 +368,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hoisting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoisting-functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoisting-complex-scenarios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
