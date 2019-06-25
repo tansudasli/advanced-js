@@ -11,3 +11,4 @@ function calculate(total) {
 
 
 console.log(calculate())
+console.log(calculate(10))
