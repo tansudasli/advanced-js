@@ -12,3 +12,7 @@ inside **core-typescript** folder,
 4. Run *.js file 
   - [ ] right click to fetch-data.js, then click run, or
   - [x] `node fetch-data.js`
+
+or compile & run via ts-code
+  - ` npm install -g typescript ts-node`
+  - `ts-node fetch-data.ts`
