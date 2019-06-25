@@ -10,9 +10,6 @@ function authenticate(person) {
 }
 
 function letPerson(person, fn) {
-    if (person.level === 'admin')
-        return fn(person)
-    else if (person.level === 'user')
         return fn(person)
 }
 
