@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a54a1b4-b5df-42de-a6d3-8d9c5e068547" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HOF.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apply-call-bind.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leverage-webapi-engine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOF-on-JSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/HOF-on-JSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOF.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/HOF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apply-call-bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/apply-call-bind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloning.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/cloning.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoisting-avoiding.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/hoisting-avoiding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoisting-complex-scenarios.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/hoisting-complex-scenarios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoisting-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/hoisting-functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoisting.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/hoisting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/max-of-an-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/max-of-an-array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/scope.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/test-stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi-leverage.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/webapi-leverage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/webapi.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +31,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apply-call-bind.js">
+        <entry file="file://$PROJECT_DIR$/core/apply-call-bind.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
@@ -30,11 +39,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HOF.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/HOF.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/webapi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/webapi-leverage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -70,12 +97,19 @@
         <option value="$PROJECT_DIR$/cloning.js" />
         <option value="$PROJECT_DIR$/apply-call-bind.js" />
         <option value="$PROJECT_DIR$/HOF.js" />
+        <option value="$PROJECT_DIR$/webapi-leverage.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1410" />
+    <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -105,16 +139,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -129,20 +171,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.HOF.js">
-    <configuration name="HOF.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="HOF.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager">
+    <configuration name="HOF.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/HOF.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="apply-call-bind.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="apply-call-bind.js" working-dir="$PROJECT_DIR$">
+    <configuration name="apply-call-bind.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/apply-call-bind.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="cloning.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="cloning.js" working-dir="$PROJECT_DIR$">
+    <configuration name="cloning.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/cloning.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="hoisting-avoiding.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="hoisting-avoiding.js" working-dir="$PROJECT_DIR$">
+    <configuration name="hoisting-avoiding.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/hoisting-avoiding.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="leverage-webapi-engine.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="leverage-webapi-engine.js" working-dir="$PROJECT_DIR$">
+    <configuration name="webapi-leverage.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/webapi-leverage.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp">
@@ -156,10 +198,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.webapi-leverage.js" />
         <item itemvalue="Node.js.HOF.js" />
         <item itemvalue="Node.js.apply-call-bind.js" />
         <item itemvalue="Node.js.cloning.js" />
-        <item itemvalue="Node.js.leverage-webapi-engine.js" />
         <item itemvalue="Node.js.hoisting-avoiding.js" />
       </list>
     </recent_temporary>
@@ -171,7 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561451542521</updated>
-      <workItem from="1561451546693" duration="3904000" />
+      <workItem from="1561451546693" duration="4708000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1561452201594</created>
@@ -250,15 +292,28 @@
       <option name="project" value="LOCAL" />
       <updated>1561454515552</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Initialize">
+      <created>1561456101533</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561456101533</updated>
+    </task>
+    <task id="LOCAL-00013" summary="renamed">
+      <created>1561456225199</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561456225199</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3904000" />
+    <option name="totallyTimeSpent" value="4708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -270,11 +325,11 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,15 +346,48 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2446352" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3299363" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.3299363" />
+      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3299363" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Flutter Inspector" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="renamed file" />
-    <MESSAGE value="Initialize" />
     <MESSAGE value="clearity increased" />
-    <option name="LAST_COMMIT_MESSAGE" value="clearity increased" />
+    <MESSAGE value="Initialize" />
+    <MESSAGE value="renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -312,21 +400,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-stack.js">
+    <entry file="file://$PROJECT_DIR$/core/test-stack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scope.js">
+    <entry file="file://$PROJECT_DIR$/core/scope.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hoisting.js">
+    <entry file="file://$PROJECT_DIR$/core/hoisting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -336,73 +424,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hoisting-functions.js">
+    <entry file="file://$PROJECT_DIR$/core/hoisting-functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hoisting-complex-scenarios.js">
+    <entry file="file://$PROJECT_DIR$/core/hoisting-complex-scenarios.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hoisting-avoiding.js">
+    <entry file="file://$PROJECT_DIR$/core/hoisting-avoiding.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/max-of-an-array.js">
+    <entry file="file://$PROJECT_DIR$/core/max-of-an-array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leverage-webapi-engine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloning.js">
+    <entry file="file://$PROJECT_DIR$/core/cloning.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOF-on-JSON.js">
+    <entry file="file://$PROJECT_DIR$/core/HOF-on-JSON.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apply-call-bind.js">
+    <entry file="file://$PROJECT_DIR$/core/webapi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/HOF.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/apply-call-bind.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOF.js">
+    <entry file="file://$PROJECT_DIR$/core/webapi-leverage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
