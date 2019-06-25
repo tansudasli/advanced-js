@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a54a1b4-b5df-42de-a6d3-8d9c5e068547" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-typescript/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-typescript/core-typescript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-typescript/fetch-data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-typescript/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOF-on-JSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/HOF-on-JSON.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HOF.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/HOF.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apply-call-bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/apply-call-bind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloning.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/cloning.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoisting-avoiding.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/hoisting-avoiding.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoisting-complex-scenarios.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/hoisting-complex-scenarios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoisting-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/hoisting-functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoisting.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/hoisting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/max-of-an-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/max-of-an-array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/scope.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/test-stack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapi-leverage.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/webapi-leverage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/webapi.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,13 +50,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/webapi-leverage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-typescript/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-typescript/fetch-data.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-typescript/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-typescript/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -72,6 +109,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -98,6 +137,10 @@
         <option value="$PROJECT_DIR$/apply-call-bind.js" />
         <option value="$PROJECT_DIR$/HOF.js" />
         <option value="$PROJECT_DIR$/webapi-leverage.js" />
+        <option value="$PROJECT_DIR$/core-typescript/tsconfig.json" />
+        <option value="$PROJECT_DIR$/core-typescript/README.md" />
+        <option value="$PROJECT_DIR$/core-typescript/fetch-data.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -128,6 +171,17 @@
               <item name="advanced-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="advanced-js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="advanced-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advanced-js" type="462c0819:PsiDirectoryNode" />
+              <item name="core-typescript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advanced-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advanced-js" type="462c0819:PsiDirectoryNode" />
+              <item name="core-typescript" type="462c0819:PsiDirectoryNode" />
+              <item name="fetch-data.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -150,14 +204,21 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.fetch-data.js">
     <configuration name="HOF.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/HOF.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -181,7 +242,7 @@
     <configuration name="cloning.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/cloning.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="hoisting-avoiding.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/hoisting-avoiding.js" working-dir="$PROJECT_DIR$">
+    <configuration name="fetch-data.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fetch-data.js" working-dir="$PROJECT_DIR$/core-typescript">
       <method v="2" />
     </configuration>
     <configuration name="webapi-leverage.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/webapi-leverage.js" working-dir="$PROJECT_DIR$">
@@ -198,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.fetch-data.js" />
         <item itemvalue="Node.js.webapi-leverage.js" />
         <item itemvalue="Node.js.HOF.js" />
         <item itemvalue="Node.js.apply-call-bind.js" />
         <item itemvalue="Node.js.cloning.js" />
-        <item itemvalue="Node.js.hoisting-avoiding.js" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +274,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561451542521</updated>
-      <workItem from="1561451546693" duration="4708000" />
+      <workItem from="1561451546693" duration="6391000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1561452201594</created>
@@ -306,14 +367,29 @@
       <option name="project" value="LOCAL" />
       <updated>1561456225199</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="restructured as core-js concepts">
+      <created>1561457861953</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561457861953</updated>
+    </task>
+    <task id="LOCAL-00015" summary="restructured as core-js concepts">
+      <created>1561457876163</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1561457876163</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4708000" />
+    <option name="totallyTimeSpent" value="6391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -321,6 +397,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2446352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -381,13 +458,20 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/core-typescript/fetch-data.js.map" />
+        <option value="$PROJECT_DIR$/core-typescript/fetch-data.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="renamed file" />
     <MESSAGE value="clearity increased" />
     <MESSAGE value="Initialize" />
     <MESSAGE value="renamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed" />
+    <MESSAGE value="restructured as core-js concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructured as core-js concepts" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -490,7 +574,44 @@
     <entry file="file://$PROJECT_DIR$/core/webapi-leverage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-typescript/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-typescript/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-typescript/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-typescript/fetch-data.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-typescript/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -551,7 +672,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

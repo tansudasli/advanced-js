@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/advanced-js.iml" filepath="$PROJECT_DIR$/advanced-js.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-typescript/core-typescript.iml" filepath="$PROJECT_DIR$/core-typescript/core-typescript.iml" />
     </modules>
   </component>
 </project>
