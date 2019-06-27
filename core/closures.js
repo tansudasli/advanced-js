@@ -26,3 +26,7 @@ console.log(a => a.b())
 // that's how we access variables out side of [function execution context] !!
 
 // lexical (where defined) scope (where accessed)
+
+// so, if there is a need , such as a big array, you should
+// 1- put global variable (polliding global)
+// 2- better way, use closures. return a function to write variable into closure box !!
