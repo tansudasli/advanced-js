@@ -6,9 +6,9 @@ function a () {
          let father = 'father';
 
          return function c() {
-             let child = 'child';
+             let son = 'child';
 
-             return `${grandpa} | ${father} | ${child};`
+             return `${grandpa} | ${father} | ${son};`
 
          }
 
@@ -18,3 +18,11 @@ function a () {
 console.log(a())
 console.log(a()())
 console.log(a()()())
+
+console.log(a => a.b())
+
+// after invoked a(), goes out of stack and grandpa variable,which is referenced by another fn,
+// goes to the closure box in memory. so gc can not mark and sweep !
+// that's how we access variables out side of [function execution context] !!
+
+// lexical (where defined) scope (where accessed)
