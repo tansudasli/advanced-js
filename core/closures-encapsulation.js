@@ -22,5 +22,7 @@ const makeNuclearButton = () => {
 
 };
 
-console.log(makeNuclearButton().totalPeaceTime);
-console.log(makeNuclearButton().launch);
+const ohno = makeNuclearButton(); //assign a function to a variable. so you can call it efficiently!
+
+console.log(ohno.totalPeaceTime);
+console.log(ohno.launch);
