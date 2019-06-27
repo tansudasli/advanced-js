@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a54a1b4-b5df-42de-a6d3-8d9c5e068547" name="Default Changelist" comment="minor update about folders">
+    <list default="true" id="9a54a1b4-b5df-42de-a6d3-8d9c5e068547" name="Default Changelist" comment="better compile time error handling">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-typescript/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core-typescript/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-typescript/fetch-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core-typescript/fetch-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/closures.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/closures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/scope.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,8 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -28,11 +28,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core-typescript/fetch-data.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/closures.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/scope.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -59,9 +86,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -93,11 +120,13 @@
         <option value="$PROJECT_DIR$/HOF.js" />
         <option value="$PROJECT_DIR$/webapi-leverage.js" />
         <option value="$PROJECT_DIR$/core-typescript/tsconfig.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/core-typescript/README.md" />
         <option value="$PROJECT_DIR$/core/HOF.js" />
         <option value="$PROJECT_DIR$/core-typescript/fetch-data.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/core/closures.js" />
+        <option value="$PROJECT_DIR$/core/scope.js" />
       </list>
     </option>
   </component>
@@ -120,8 +149,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,12 +167,6 @@
               <item name="advanced-js" type="b2602c69:ProjectViewProjectNode" />
               <item name="advanced-js" type="462c0819:PsiDirectoryNode" />
               <item name="core-typescript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advanced-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advanced-js" type="462c0819:PsiDirectoryNode" />
-              <item name="core-typescript" type="462c0819:PsiDirectoryNode" />
-              <item name="fetch-data.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -194,14 +217,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.HOF.js">
+  <component name="RunManager" selected="Node.js.closures.js">
     <configuration name="HOF.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/HOF.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="apply-call-bind.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/apply-call-bind.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="cloning.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/core/cloning.js" working-dir="$PROJECT_DIR$">
+    <configuration name="closures.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="closures.js" working-dir="$PROJECT_DIR$/core">
       <method v="2" />
     </configuration>
     <configuration name="fetch-data.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fetch-data.js" working-dir="$PROJECT_DIR$/core-typescript">
@@ -221,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.closures.js" />
         <item itemvalue="Node.js.HOF.js" />
         <item itemvalue="Node.js.fetch-data.js" />
         <item itemvalue="Node.js.webapi-leverage.js" />
         <item itemvalue="Node.js.apply-call-bind.js" />
-        <item itemvalue="Node.js.cloning.js" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +261,7 @@
       <updated>1561451542521</updated>
       <workItem from="1561451546693" duration="13884000" />
       <workItem from="1561480548867" duration="372000" />
+      <workItem from="1561623309350" duration="1723000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1561452201594</created>
@@ -379,16 +403,31 @@
       <option name="project" value="LOCAL" />
       <updated>1561469856101</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="better compile time error handling">
+      <created>1561623380027</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1561623380027</updated>
+    </task>
+    <task id="LOCAL-00022" summary="closures">
+      <created>1561625409050</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1561625409050</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14256000" />
+    <option name="totallyTimeSpent" value="15979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24821173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -396,13 +435,13 @@
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -472,20 +511,15 @@
     <MESSAGE value="update how to run .ts files in many ways" />
     <MESSAGE value="minor update about folders" />
     <MESSAGE value="fn is more genarilized, now" />
-    <option name="LAST_COMMIT_MESSAGE" value="fn is more genarilized, now" />
+    <MESSAGE value="better compile time error handling" />
+    <MESSAGE value="closures" />
+    <option name="LAST_COMMIT_MESSAGE" value="closures" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/core/test-stack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/scope.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -551,13 +585,6 @@
     <entry file="file://$PROJECT_DIR$/core-typescript/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core-typescript/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -613,6 +640,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/closures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/scope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
         </state>
       </provider>
     </entry>
