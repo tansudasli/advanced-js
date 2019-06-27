@@ -1,5 +1,7 @@
 # core-typescript
 
+- tsconfig.json is must for typescript 
+- package.json is must for node (comes w/ `node init`)
 
 ## How To Start
 
