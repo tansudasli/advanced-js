@@ -7,3 +7,5 @@ function weird() {
 }
 
 weird();
+
+// lexical (where defined) scope (where accessed)
