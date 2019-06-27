@@ -27,3 +27,8 @@ console.log(lizard.fight()); //came from lizzard
 
 console.log(dragon.isPrototypeOf(lizard));
 console.log(lizard.isPrototypeOf(dragon));
+
+//js does not copy inherited properties. it looks through the prototypal chain!
+for (let prop in lizard) {
+    lizard.hasOwnProperty(prop) ? console.log(prop) : '';
+}
