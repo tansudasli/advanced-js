@@ -14,6 +14,7 @@ const makeNuclearButton = () => {
         return '💥';
     };
 
+    //below lines are public outside of fn.
     return {
         launch: launch(),
         totalPeaceTime: totalPeaceTime()
