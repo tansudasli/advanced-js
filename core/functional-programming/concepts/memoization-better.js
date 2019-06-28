@@ -21,3 +21,6 @@ const memoized = memoizedAddTo80();
 console.log(memoized(80));
 console.log(memoized(80)); //comes from cache
 console.log(memoized(80)); //comes from cache
+
+console.log(memoized(8)); //comes from cache
+console.log(memoized(8)); //comes from cache
