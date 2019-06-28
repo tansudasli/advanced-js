@@ -12,6 +12,6 @@ console.log(curriedMultiply(3)(4));
 
 console.log(curriedMultiplyByFive(3));
 
-//partial application
+//partial application = one param, then later all of them
 const partialMultiplyByFive = multiply.bind(null, 5);
 console.log(partialMultiplyByFive(10));
