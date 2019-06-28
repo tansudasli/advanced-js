@@ -1,3 +1,4 @@
+//polluting global. ideally should be in fn. closures !
 let cache = {};
 
 const memoizedAddTo80 = (n) => {
