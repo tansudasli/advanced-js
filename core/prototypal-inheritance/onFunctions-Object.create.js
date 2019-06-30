@@ -1,3 +1,4 @@
+'use strict';
 
 // use chrome developer JS console to test.
 
