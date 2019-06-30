@@ -23,3 +23,5 @@ there is prototypal inheritance.!!
 **to add a new function/ or override**,
 
 1- obj.prototype.newFN = { }
+
+We can use Object Literals or Functions 
