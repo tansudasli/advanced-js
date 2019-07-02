@@ -13,3 +13,8 @@ movePlayer(100, 'left')
     .then(() => movePlayer(200, 'forward'))
     .then(() => movePlayer(300, 'right'))
     .catch((error) => console.log(error.message));
+
+
+/*
+w/ async wait, such cases can be handled more easily.  bu i still like that format.
+ */
