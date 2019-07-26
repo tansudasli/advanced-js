@@ -12,7 +12,6 @@ const toDo = [ {id: 123, name: "Pick up truck", completed: true},
                {id: 125, name: "Bring back truck", completed: false}
                ];
 
-//dont use [[ ]], `` is much better
 container.innerHTML = `
         <ul class="list-group">
             <li id="${toDo[0].id}" class="${toDo[0].completed ? "list-group-item  list-group-item-success" : "list-group-item active"}">${toDo[0].name}</li>
