@@ -3,6 +3,9 @@ var KeyValuePair = /** @class */ (function () {
         this.k = k;
         this.v = v;
     }
+    KeyValuePair.prototype.print = function () {
+        console.log(this);
+    };
     return KeyValuePair;
 }());
 var pair1 = new KeyValuePair(3, "uc");
@@ -14,4 +17,5 @@ console.log(pair2);
 var pair3 = new KeyValuePair("bes", 5);
 var pair4 = new KeyValuePair("bes", new Date(Date.now()));
 console.log(pair3);
-console.log(pair4);
+pair4.print();
+pair1.print();

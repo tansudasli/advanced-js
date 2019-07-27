@@ -3,6 +3,10 @@ class KeyValuePair<TKey, TValue> {
     constructor(public k: TKey, public v: TValue) {
 
     }
+
+    print() {
+        console.log(this);
+    }
 }
 
 let pair1 = new KeyValuePair(3, "uc");
@@ -19,4 +23,6 @@ let pair3 = new KeyValuePair<string, number>("bes", 5);
 let pair4 = new KeyValuePair<string, Date>("bes", new Date(Date.now()));
 
 console.log(pair3);
-console.log(pair4);
+pair4.print();
+
+pair1.print();
