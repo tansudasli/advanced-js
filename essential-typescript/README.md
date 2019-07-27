@@ -2,6 +2,8 @@
 
 It is all about where js ends and ts starts.
 
+- oop/ : modelling for event and event-details
+
 ## How to Run
 
 for most of the ts files,
