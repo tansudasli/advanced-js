@@ -2,7 +2,7 @@
 
 It is all about where js ends and ts starts.
 
-- index2.html, app.ts and event.ts : prototype for event app
+- event-app: prototype for event app
 
 
 
