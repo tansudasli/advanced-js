@@ -2,7 +2,9 @@
 
 It is all about where js ends and ts starts.
 
-- oop/ : modelling for event and event-details
+- index2.html, app.ts and event.ts : prototype for event app
+
+
 
 ## How to Run
 
