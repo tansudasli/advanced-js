@@ -3,6 +3,7 @@
 - core: advanced JS concepts such as hoisting, web api & stack etc..
 - core-typescript: typescript fundamentals
 - essential-typescript: intersection of js & typescript
+- basic-httpserver-nodejs: basic http server impl. w/ nodejs
 
 ## How To Start
 
