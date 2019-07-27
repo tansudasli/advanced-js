@@ -4,7 +4,8 @@ var KeyValuePair = /** @class */ (function () {
         this.v = v;
     }
     KeyValuePair.prototype.print = function () {
-        console.log(this);
+        // console.log(this);
+        console.log(this.k + ": " + this.v);
     };
     return KeyValuePair;
 }());

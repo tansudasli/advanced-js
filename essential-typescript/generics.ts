@@ -5,7 +5,8 @@ class KeyValuePair<TKey, TValue> {
     }
 
     print() {
-        console.log(this);
+        // console.log(this);
+        console.log(`${this.k}: ${this.v}`);
     }
 }
 
