@@ -7,3 +7,6 @@ enum VideoStreamingState {
 }
 
 console.log(VideoStreamingState.Done);
+
+//to import later in oop-interface.ts !
+export {VideoStreamingState};
