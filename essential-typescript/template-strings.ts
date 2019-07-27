@@ -1,6 +1,6 @@
 const container = document.getElementById('container');
 
-// var toDo = {
+// var toDos = {
 //     id: 123,
 //     name: "Pick up truck",
 //     completed: false
