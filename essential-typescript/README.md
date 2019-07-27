@@ -6,7 +6,7 @@ It is all about where js ends and ts starts.
 
 for most of the ts files,
 
-- [x] just `tsc oop-interface.ts && node oop-interface.js` or use IDE run 
+- [x] just `tsc interfaces.ts && node interfaces.js` or use IDE run 
 
 if there is need for index.html file, then
 

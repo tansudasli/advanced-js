@@ -16,6 +16,6 @@ enum EventState {
 
 console.log(VideoStreamingState.Done);
 
-//to import later in oop-interface.ts !
+//to import later in interfaces.ts !
 export {VideoStreamingState};
 export {EventState};
