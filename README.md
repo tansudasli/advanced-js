@@ -18,4 +18,4 @@ for most of the ts files,
 
 if there is need for index.html file, then
 
--[x] `tsc ..ts` to get ...js file, then run index.html from IDE
+- [x] `tsc ..ts` to get ...js file, then run index.html from IDE
