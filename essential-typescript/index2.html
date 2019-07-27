@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Event App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div id="container" class="container-fluid">
+
+
+</div>
+    <script>let exports = {"__esModule": true};</script>
+
+
+<!--    <script type="text/javascript" src="event.js"></script>-->
+<!--    <script type="text/javascript" src="app.js"></script>-->
+
+<!--module loader instead of typing all js file like above - external scope-->
+    <script type="text/javascript" src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+        System.defaulJSExtentions = true;
+        System.import('app.js');
+    </script>
+</body>
+
+</html>
