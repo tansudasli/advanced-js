@@ -14,4 +14,6 @@ countdown(10, 6, 1);
 /*
 run  'tsc optional-parameters.ts'
 then, check optional-parameters.js to see how js handles optional params!
+run, index.html to see in a browser
+open console, and run countdown(10,3,1) to play
 */
