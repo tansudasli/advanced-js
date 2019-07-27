@@ -1,6 +1,6 @@
 
 // in fact there is no interface in js. that comes w/ typescript
-import {VideoStreamingState} from "./enums";
+import {VideoStreamingState, EventState} from "./enums";
 
 //runs enums packages :)
 // import "./enums";
@@ -8,7 +8,7 @@ import {VideoStreamingState} from "./enums";
 interface IEvent {
     id: number;
     name: string;
-    state: VideoStreamingState;
+    state: EventState;
     location: string;
     longitude: number;
     latitude: number;
@@ -17,3 +17,19 @@ interface IEvent {
     addEvent();
 
 }
+
+interface IEventDetail {
+    id: number;
+    name: string;
+    state: VideoStreamingState;
+    room: string;
+
+
+    createEventDetail();
+    attachToEvent();
+
+}
+
+
+export {IEvent, IEventDetail};
+
