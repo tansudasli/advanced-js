@@ -4,6 +4,7 @@
 - core-typescript: typescript fundamentals
 - essential-typescript: intersection of js & typescript
 - basic-httpserver-nodejs: basic http server impl. w/ nodejs
+- eventapp-expressjs: implementation of an event and event-detail app. w/ ejs + js + expressjs + nodejs
 
 ## How To Start
 

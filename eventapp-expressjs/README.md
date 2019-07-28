@@ -1,6 +1,6 @@
 # basic-expressapp-nodejs
 
-
+implementation of an event and event-detail app. w/ ejs + js + expressjs + nodejs
 
 ### General Structure
 
