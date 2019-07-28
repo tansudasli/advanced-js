@@ -1,4 +1,4 @@
-# basic-expressapp-nodejs
+# eventapp-expressjs
 
 implementation of an event and event-detail app. w/ ejs + js + expressjs + nodejs
 
