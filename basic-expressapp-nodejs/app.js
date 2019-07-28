@@ -17,7 +17,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));  //to parse body in POST requests
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'))); //to access public folders
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
