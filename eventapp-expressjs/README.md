@@ -2,6 +2,13 @@
 
 implementation of an event and event-detail app. w/ ejs + js + expressjs + nodejs
 
+## How To Start
+
+1. `git clone ..`
+2. `cd advanced-js/eventapp-expressjs`
+3. `npm install`
+4. `npm start`, then check `localhost:3000` in chrome.
+
 ### General Structure
 
 ```
