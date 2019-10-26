@@ -31,5 +31,8 @@ var logNumber = function (i) {
 };
 logNumber(5);
 var json = '{"x": 10, "y": 30}';
-var coordinates = JSON.parse(json);
-console.log(coordinates);
+var coordinates = JSON.parse(json); // it returns any type. to fix this.
+var coordinates_ = JSON.parse(json);
+console.log(coordinates); // prone to error. and coordinates.x not possible !
+console.log(coordinates_);
+console.log("x: " + coordinates_.x);

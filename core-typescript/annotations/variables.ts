@@ -1,5 +1,5 @@
 // run w/  tsc variables.ts && node variables.js
-let apples_ = 5;         // type inference
+let apples_ = 5;         // type inference is possible instead of type annotations
 let apples: number = 5;  // type annotations
 console.log(apples);
 
@@ -40,7 +40,11 @@ const logNumber: (i: number) => void = (i: number) => {
 logNumber(5);
 
 const json = '{"x": 10, "y": 30}';
-const coordinates = JSON.parse(json);
-console.log(coordinates);
+const coordinates = JSON.parse(json); // it returns any type. to fix this. USE type annotations!
+const coordinates_: {x: number; y: number} = JSON.parse(json);
+
+console.log(coordinates); // prone to error. and coordinates.x not possible !
+console.log(coordinates_);
+console.log(`x: ${coordinates_.x}`);
 
 
