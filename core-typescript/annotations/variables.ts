@@ -40,6 +40,7 @@ const logNumber: (i: number) => void = (i: number) => {
 logNumber(5);
 
 const json = '{"x": 10, "y": 30}';
+// @ts-ignore
 const coordinates = JSON.parse(json); // it returns any type. to fix this. USE type annotations!
 const coordinates_: {x: number; y: number} = JSON.parse(json);
 

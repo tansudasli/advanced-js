@@ -1,9 +1,10 @@
 # advanced-js
 
-- core: advanced JS concepts such as hoisting, web api & stack etc..
+- core-js: advanced JS concepts such as hoisting, web api & stack etc..
 - core-typescript: typescript fundamentals
-- essential-typescript: intersection of js & typescript
-- basic-httpserver-nodejs: basic http server impl. w/ nodejs
+- core-ts-js: intersection of js & typescript
+- core-nodejs: basic http server impl. w/ nodejs
+
 - eventapp-expressjs: implementation of an event and event-detail app. w/ ejs + js + expressjs + nodejs
 
 ## How To Start
