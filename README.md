@@ -6,6 +6,7 @@
 - core-nodejs: basic http server impl. w/ nodejs
 
 - event-app: implementation of an event and event-detail app. w/ ejs + js + **expressjs** + nodejs
+- map-app: impl. of an google map app w/ *parcel* bundler + ts
 
 ## How To Start
 
