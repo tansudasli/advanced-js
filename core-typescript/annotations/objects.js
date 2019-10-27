@@ -9,6 +9,7 @@ var profile = {
 // below works but we gonna create a func. inside object
 // profile.age = 24;
 // destructuring
+// if you have multiple destructured values, we use :{} to define multiple returning values
 var age = profile.age;
 // @ts-ignore
 var coordinates = profile.coordinates;
