@@ -5,7 +5,7 @@
 - core-ts-js: intersection of js & typescript
 - core-nodejs: basic http server impl. w/ nodejs
 
-- eventapp-expressjs: implementation of an event and event-detail app. w/ ejs + js + expressjs + nodejs
+- event-app: implementation of an event and event-detail app. w/ ejs + js + **expressjs** + nodejs
 
 ## How To Start
 
